@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.osx.deployment_target = '10.15'
   
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Sources/**/**/*'
   s.frameworks = 'SwiftUI'
 end
